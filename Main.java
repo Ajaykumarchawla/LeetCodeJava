@@ -4,6 +4,7 @@ import Array101.SquaresofSortedArray;
 import Array101.DuplicateZeros;
 import Array101.MaxConsecutiveOnes;
 import Array101.MergeSortedArray;
+import Array101.RemoveElement;
 
 class Main {
     public static void main(String args[]) {
