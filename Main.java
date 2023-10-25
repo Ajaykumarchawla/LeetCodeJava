@@ -5,6 +5,7 @@ import Array101.DuplicateZeros;
 import Array101.MaxConsecutiveOnes;
 import Array101.MergeSortedArray;
 import Array101.RemoveElement;
+import Array101.RemoveDuplicatesfromSortedArray;
 
 class Main {
     public static void main(String args[]) {
