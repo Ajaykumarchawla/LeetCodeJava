@@ -11,6 +11,7 @@ import Array101.ValidMountainArray;
 import Array101.GreatestElementonRightSide;
 import Array101.MoveZeroes;
 import Array101.SortArrayByParity;
+import Array101.HeightChecker;
 
 class Main {
     public static void main(String args[]) {
