@@ -32,6 +32,7 @@ package Array101;
 public class HeightChecker {
     public int heightChecker(int[] heights) {
         int[] expected = new int[heights.length];
+        int count = 0;
         for (int i = 0; i < heights.length; i++) {
             expected[i] = heights[i];
         }
@@ -43,10 +44,6 @@ public class HeightChecker {
                     heights[j] = temp;
                 }
             }
-            System.out.println(expected[i] + "" + heights[i]);
-        }
-        int count = 0;
-        for (int i = 0; i < heights.length; i++) {
             if (heights[i] != expected[i]) {
                 count++;
             }
