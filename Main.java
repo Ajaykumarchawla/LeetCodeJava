@@ -18,6 +18,8 @@ import ArrayAndString.FindPivotIndex;
 import ArrayAndString.LargestNumberTwiceofOthers;
 import ArrayAndString.PlusOne;
 
+import Extra.TwoSum;
+
 class Main {
     public static void main(String args[]) {
         System.out.print("Hello World");
