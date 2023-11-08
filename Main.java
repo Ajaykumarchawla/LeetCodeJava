@@ -17,6 +17,7 @@ import Array101.FindAllNumbersDisappearedinArray;
 import ArrayAndString.FindPivotIndex;
 import ArrayAndString.LargestNumberTwiceofOthers;
 import ArrayAndString.PlusOne;
+import ArrayAndString.DiagonalTraverse;
 
 import Extra.TwoSum;
 
