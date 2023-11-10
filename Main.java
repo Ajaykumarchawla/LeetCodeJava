@@ -18,6 +18,7 @@ import ArrayAndString.FindPivotIndex;
 import ArrayAndString.LargestNumberTwiceofOthers;
 import ArrayAndString.PlusOne;
 import ArrayAndString.DiagonalTraverse;
+import ArrayAndString.SpiralMatrix;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
