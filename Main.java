@@ -19,6 +19,7 @@ import ArrayAndString.LargestNumberTwiceofOthers;
 import ArrayAndString.PlusOne;
 import ArrayAndString.DiagonalTraverse;
 import ArrayAndString.SpiralMatrix;
+import ArrayAndString.PascalTriangle;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
