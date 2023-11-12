@@ -20,6 +20,7 @@ import ArrayAndString.PlusOne;
 import ArrayAndString.DiagonalTraverse;
 import ArrayAndString.SpiralMatrix;
 import ArrayAndString.PascalTriangle;
+import ArrayAndString.AddBinary;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
