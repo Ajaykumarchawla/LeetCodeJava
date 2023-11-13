@@ -21,6 +21,7 @@ import ArrayAndString.DiagonalTraverse;
 import ArrayAndString.SpiralMatrix;
 import ArrayAndString.PascalTriangle;
 import ArrayAndString.AddBinary;
+import ArrayAndString.ImplementstrStr;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
