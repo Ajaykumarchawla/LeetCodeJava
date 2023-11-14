@@ -22,6 +22,7 @@ import ArrayAndString.SpiralMatrix;
 import ArrayAndString.PascalTriangle;
 import ArrayAndString.AddBinary;
 import ArrayAndString.ImplementstrStr;
+import ArrayAndString.LongestCommonPrefix;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
