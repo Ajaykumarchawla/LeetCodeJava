@@ -23,6 +23,7 @@ import ArrayAndString.PascalTriangle;
 import ArrayAndString.AddBinary;
 import ArrayAndString.ImplementstrStr;
 import ArrayAndString.LongestCommonPrefix;
+import ArrayAndString.ReverseString;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
