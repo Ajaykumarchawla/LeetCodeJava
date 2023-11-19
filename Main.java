@@ -32,6 +32,7 @@ import Extra.PalindromeNumber;
 import Extra.MinimizeMaximumPairSumInArray;
 import Extra.FrequencyOfTheMostFrequentElement;
 
+// nothing but adding commit
 class Main {
     public static void main(String args[]) {
         System.out.print("Hello World");
