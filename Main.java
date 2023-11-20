@@ -28,6 +28,7 @@ import ArrayAndString.ArrayPartitionI;
 import ArrayAndString.TwoSumIIInputarraysorted;
 import ArrayAndString.MinimumSizeSubarraySum;
 import ArrayAndString.RotateArray;
+import ArrayAndString.PascalsTriangleII;
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
 import Extra.MinimizeMaximumPairSumInArray;
