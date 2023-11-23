@@ -35,6 +35,7 @@ import Extra.TwoSum;
 import Extra.PalindromeNumber;
 import Extra.MinimizeMaximumPairSumInArray;
 import Extra.FrequencyOfTheMostFrequentElement;
+import Extra.SearchInsertPosition;
 
 // nothing but adding commit
 class Main {
