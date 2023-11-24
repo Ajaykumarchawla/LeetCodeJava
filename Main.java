@@ -36,6 +36,7 @@ import Extra.PalindromeNumber;
 import Extra.MinimizeMaximumPairSumInArray;
 import Extra.FrequencyOfTheMostFrequentElement;
 import Extra.SearchInsertPosition;
+import Extra.MaximumNumberOfCoinsYouCanGet;
 
 // nothing but adding commit
 class Main {
