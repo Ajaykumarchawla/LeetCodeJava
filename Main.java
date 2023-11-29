@@ -41,6 +41,7 @@ import Extra.SearchInsertPosition;
 import Extra.MaximumNumberOfCoinsYouCanGet;
 import Extra.BestTimetoBuyandSellStock;
 import Extra.CountPairsWhoseSumIsLessThanTarget;
+import Extra.MajorityElement;
 
 // nothing but adding commit
 class Main {
