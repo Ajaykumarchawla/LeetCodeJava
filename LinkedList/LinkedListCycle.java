@@ -30,15 +30,15 @@ package LinkedList;
 // Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
 // Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
+// class ListNode {
+//     int val;
+//     ListNode next;
 
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
+//     ListNode(int x) {
+//         val = x;
+//         next = null;
+//     }
+// }
 
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
