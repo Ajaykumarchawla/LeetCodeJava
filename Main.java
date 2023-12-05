@@ -37,6 +37,7 @@ import LinkedList.LinkedListCycle;
 import LinkedList.LinkedListCycleII;
 import LinkedList.IntersectionofTwoLinkedLists;
 import LinkedList.RemoveNthNodeFromEndofList;
+import LinkedList.ReverseLinkedList;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
