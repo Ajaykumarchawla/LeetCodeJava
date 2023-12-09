@@ -41,6 +41,7 @@ import LinkedList.ReverseLinkedList;
 import LinkedList.RemoveLinkedListElements;
 import LinkedList.OddEvenLinkedList;
 import LinkedList.PalindromeLinkedList;
+import LinkedList.MyDoublyLinkedList;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
