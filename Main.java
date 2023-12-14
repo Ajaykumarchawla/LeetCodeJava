@@ -56,6 +56,7 @@ import Extra.MaximumNumberOfCoinsYouCanGet;
 import Extra.BestTimetoBuyandSellStock;
 import Extra.CountPairsWhoseSumIsLessThanTarget;
 import Extra.MajorityElement;
+import Extra.RemoveDuplicatesFromSortedList;
 
 // nothing but adding commit
 class Main {
