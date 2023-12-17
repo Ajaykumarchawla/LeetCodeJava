@@ -46,6 +46,7 @@ import LinkedList.MergeTwoSortedLists;
 import LinkedList.AddTwoNumbers;
 import LinkedList.FlattenMultilevelDoublyLinkedList;
 import LinkedList.CopyListWithRandomPointer;
+import LinkedList.RotateList;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
