@@ -50,6 +50,8 @@ import LinkedList.RotateList;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
+import RecursionI.SearchinBinarySearchTree;
+
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
 import Extra.MinimizeMaximumPairSumInArray;
