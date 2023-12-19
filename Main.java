@@ -62,6 +62,7 @@ import Extra.BestTimetoBuyandSellStock;
 import Extra.CountPairsWhoseSumIsLessThanTarget;
 import Extra.MajorityElement;
 import Extra.RemoveDuplicatesFromSortedList;
+import Extra.MaximumProductOfTwoElementsInAnArray;
 
 // nothing but adding commit
 class Main {
