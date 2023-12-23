@@ -54,6 +54,7 @@ import RecursionI.SearchinBinarySearchTree;
 import RecursionI.ClimbingStairs;
 import RecursionI.FibonacciNumber;
 import RecursionI.MaximumDepthofBinaryTree;
+import RecursionI.Pow_x_n;
 
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
