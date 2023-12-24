@@ -67,6 +67,7 @@ import Extra.CountPairsWhoseSumIsLessThanTarget;
 import Extra.MajorityElement;
 import Extra.RemoveDuplicatesFromSortedList;
 import Extra.MaximumProductOfTwoElementsInAnArray;
+import Extra.MinimumChangesToMakeAlternatingBinaryString;
 
 // nothing but adding commit
 class Main {
