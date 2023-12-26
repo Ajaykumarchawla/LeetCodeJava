@@ -68,6 +68,7 @@ import Extra.MajorityElement;
 import Extra.RemoveDuplicatesFromSortedList;
 import Extra.MaximumProductOfTwoElementsInAnArray;
 import Extra.MinimumChangesToMakeAlternatingBinaryString;
+import Extra.DecodeWays;
 
 // nothing but adding commit
 class Main {
