@@ -72,6 +72,7 @@ import Extra.RemoveDuplicatesFromSortedList;
 import Extra.MaximumProductOfTwoElementsInAnArray;
 import Extra.MinimumChangesToMakeAlternatingBinaryString;
 import Extra.DecodeWays;
+import Extra.MinimumTimeToMakeRopeColorful;
 
 // nothing but adding commit
 class Main {
