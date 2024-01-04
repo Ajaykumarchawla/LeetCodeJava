@@ -52,6 +52,7 @@ import MyHashTable.MyHashSet;
 import MyHashTable.MyHashMap;
 import MyHashTable.SingleNumber;
 import MyHashTable.ContainsDuplicates;
+import MyHashTable.IntersectionOfTwoArrays;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
