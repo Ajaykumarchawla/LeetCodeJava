@@ -53,6 +53,7 @@ import MyHashTable.MyHashMap;
 import MyHashTable.SingleNumber;
 import MyHashTable.ContainsDuplicates;
 import MyHashTable.IntersectionOfTwoArrays;
+import MyHashTable.TwoSumHashMap;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
