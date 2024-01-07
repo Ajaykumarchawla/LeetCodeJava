@@ -54,6 +54,7 @@ import MyHashTable.SingleNumber;
 import MyHashTable.ContainsDuplicates;
 import MyHashTable.IntersectionOfTwoArrays;
 import MyHashTable.TwoSumHashMap;
+import MyHashTable.HappyNumber;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;

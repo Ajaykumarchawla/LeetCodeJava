@@ -24,7 +24,7 @@ public class UniqueBinarySearchTreesII {
     }
 
     public List<TreeNode> generateBranch(int min, int max) {
-        List<TreeNode> list1 = new <TreeNode>ArrayList();
+        List<TreeNode> list1 = new ArrayList<TreeNode>();
         if (min == max) {
             TreeNode node = new TreeNode(min);
             list1.add(node);
