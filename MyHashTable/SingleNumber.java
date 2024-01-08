@@ -26,7 +26,7 @@ import java.util.Set;
 // Each element in the array appears twice except for one element which appears only once.
 public class SingleNumber {
     public int singleNumber(int[] nums) {
-        Set<Integer> set1 = new HashSet<Integer>(), set2 = new HashSet<Integer>();
+        Set<Integer> set1 = new HashSet<Integer>();
         for (int i : nums) {
             if (set1.contains(i)) {
                 set1.remove(i);
