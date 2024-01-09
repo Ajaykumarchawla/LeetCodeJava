@@ -56,6 +56,7 @@ import MyHashTable.IntersectionOfTwoArrays;
 import MyHashTable.TwoSumHashMap;
 import MyHashTable.HappyNumber;
 import MyHashTable.IsomorphicString;
+import MyHashTable.FirstUniqueCharacterinaString;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
