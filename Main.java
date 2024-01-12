@@ -59,6 +59,7 @@ import MyHashTable.IsomorphicString;
 import MyHashTable.FirstUniqueCharacterinaString;
 import MyHashTable.MinimumIndexSumofTwoLists;
 import MyHashTable.IntersectionOfTwoArraysII;
+import MyHashTable.ContainsDuplicateII;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
