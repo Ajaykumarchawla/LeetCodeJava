@@ -62,6 +62,7 @@ import MyHashTable.IntersectionOfTwoArraysII;
 import MyHashTable.ContainsDuplicateII;
 import MyHashTable.GroupAnagrams;
 import MyHashTable.ValidSudoku;
+import MyHashTable.JewelsAndStones;
 
 import RecursionI.ReverseStringRecursive;
 import RecursionI.SwapNodesinPairs;
