@@ -95,6 +95,7 @@ import Extra.MinimumChangesToMakeAlternatingBinaryString;
 import Extra.DecodeWays;
 import Extra.MinimumTimeToMakeRopeColorful;
 import Extra.ValidPalindrome;
+import Extra.LengthOfLastWord;
 
 // nothing but adding commit
 class Main {
