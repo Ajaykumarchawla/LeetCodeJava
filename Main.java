@@ -96,6 +96,7 @@ import Extra.DecodeWays;
 import Extra.MinimumTimeToMakeRopeColorful;
 import Extra.ValidPalindrome;
 import Extra.LengthOfLastWord;
+import Patterns.Patterns;
 
 // nothing but adding commit
 class Main {
