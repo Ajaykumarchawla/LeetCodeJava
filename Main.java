@@ -104,7 +104,7 @@ class Main {
     public static void main(String args[]) {
         BasicMath mathObj = new BasicMath();
 
-        System.out.println(mathObj.findRerusiveGCD(9, 12));
+        System.out.println(mathObj.checkPrime(39));
         System.out.print("Hello World");
     }
 }
