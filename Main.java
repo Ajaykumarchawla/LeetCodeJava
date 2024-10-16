@@ -6,6 +6,10 @@ import Array101.MaxConsecutiveOnes;
 import Array101.MergeSortedArray;
 import Array101.RemoveElement;
 import Array101.RemoveDuplicatesfromSortedArray;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import Array101.CheckIfNandItsDoubleExist;
 import Array101.ValidMountainArray;
 import Array101.GreatestElementonRightSide;
@@ -98,13 +102,11 @@ import Extra.ValidPalindrome;
 import Extra.LengthOfLastWord;
 import Patterns.Patterns;
 import BasicMath.BasicMath;
+import BasicRecursion.BasicRecursion;
 
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
-        BasicMath mathObj = new BasicMath();
-
-        System.out.println(mathObj.checkPrime(39));
         System.out.print("Hello World");
     }
 }
