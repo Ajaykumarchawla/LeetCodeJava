@@ -30,6 +30,7 @@ import ArrayAndString.LongestCommonPrefix;
 import ArrayAndString.ReverseString;
 import ArrayAndString.ArrayPartitionI;
 import ArrayAndString.TwoSumIIInputarraysorted;
+import BasicHash.BasicHash;
 import ArrayAndString.MinimumSizeSubarraySum;
 import ArrayAndString.RotateArray;
 import ArrayAndString.PascalsTriangleII;
@@ -107,6 +108,9 @@ import BasicRecursion.BasicRecursion;
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
+        int[] arr = { 10, 5, 10, 15, 10, 5 };
+        BasicHash basicHash = new BasicHash();
+        basicHash.printHightLowFrequenceyElement(arr);
         System.out.print("Hello World");
     }
 }

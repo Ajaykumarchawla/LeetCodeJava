@@ -1,7 +1,5 @@
 package BasicRecursion;
 
-import java.util.List;
-
 public class BasicRecursion {
     public void printNumnber(int num) {
         if (num == 1) {
