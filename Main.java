@@ -85,6 +85,7 @@ import RecursionI.Pow_x_n;
 import RecursionI.MergeTwoSortedListsRecursive;
 import RecursionI.KthSymbolInGrammar;
 import RecursionI.UniqueBinarySearchTreesII;
+import Sorting.Sorting;
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
 import Extra.MinimizeMaximumPairSumInArray;
@@ -108,9 +109,18 @@ import BasicRecursion.BasicRecursion;
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
-        int[] arr = { 10, 5, 10, 15, 10, 5 };
-        BasicHash basicHash = new BasicHash();
-        basicHash.printHightLowFrequenceyElement(arr);
+        int[] arr = { 13, 46, 24, 52, 20, 9 };
+        Sorting sort = new Sorting();
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+
+        }
+        System.err.println();
+        sort.useInsertionSort(arr);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+
+        }
         System.out.print("Hello World");
     }
 }
