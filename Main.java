@@ -109,17 +109,16 @@ import BasicRecursion.BasicRecursion;
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
-        int[] arr = { 13, 46, 24, 52, 20, 9 };
+        int[] arr = { 13, 46, 24, 52, 20, 9, 3, 4, 6 };
         Sorting sort = new Sorting();
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
 
         }
         System.err.println();
-        sort.useInsertionSort(arr);
+        sort.useQuickSort(arr, 0, arr.length - 1);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
-
         }
         System.out.print("Hello World");
     }
