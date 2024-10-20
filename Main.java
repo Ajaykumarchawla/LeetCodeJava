@@ -10,6 +10,7 @@ import Array101.RemoveDuplicatesfromSortedArray;
 import java.util.ArrayList;
 import java.util.List;
 
+import ATOZ.ArrayProblems;
 import Array101.CheckIfNandItsDoubleExist;
 import Array101.ValidMountainArray;
 import Array101.GreatestElementonRightSide;
@@ -110,13 +111,14 @@ import BasicRecursion.BasicRecursion;
 class Main {
     public static void main(String args[]) {
         int[] arr = { 13, 46, 24, 52, 20, 9, 3, 4, 6 };
-        Sorting sort = new Sorting();
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
 
         }
         System.err.println();
-        sort.useQuickSort(arr, 0, arr.length - 1);
+        ArrayProblems arrProbObj = new ArrayProblems();
+        arrProbObj.RotateToLeft(arr, 15);
+        // sort.useQuickSort(arr, 0, arr.length - 1);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
