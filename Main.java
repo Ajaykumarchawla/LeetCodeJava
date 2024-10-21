@@ -103,6 +103,7 @@ import Extra.DecodeWays;
 import Extra.MinimumTimeToMakeRopeColorful;
 import Extra.ValidPalindrome;
 import Extra.LengthOfLastWord;
+import Extra.SubarraySumEqualsK;
 import Patterns.Patterns;
 import BasicMath.BasicMath;
 import BasicRecursion.BasicRecursion;
@@ -110,18 +111,10 @@ import BasicRecursion.BasicRecursion;
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
-        int[] arr = { 13, 46, 24, 52, 20, 9, 3, 4, 6 };
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        int[] arr = { 1, 2, 3 };
+        int k = 3;
+        SubarraySumEqualsK obj = new SubarraySumEqualsK();
 
-        }
-        System.err.println();
-        ArrayProblems arrProbObj = new ArrayProblems();
-        arrProbObj.RotateToLeft(arr, 15);
-        // sort.useQuickSort(arr, 0, arr.length - 1);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
         System.out.print("Hello World");
     }
 }
