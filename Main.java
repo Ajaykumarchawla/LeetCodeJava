@@ -111,9 +111,18 @@ import BasicRecursion.BasicRecursion;
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
+
+        ArrayProblems obj = new ArrayProblems();
         int[] arr = { 1, 2, 3 };
         int k = 3;
-        SubarraySumEqualsK obj = new SubarraySumEqualsK();
+        System.out.println(obj.longestSubarraywithSumK(arr, k) + " " + 2);
+        k = 5;
+        int[] arr2 = { 2, 3, 5 };
+        System.out.println(obj.longestSubarraywithSumK(arr2, k) + " " + 2);
+
+        int[] arr3 = { -1, 1, 1 };
+        k = 1;
+        System.out.println(obj.longestSubarraywithSumK(arr3, k) + " " + 3);
 
         System.out.print("Hello World");
     }
