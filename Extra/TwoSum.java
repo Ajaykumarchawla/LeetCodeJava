@@ -1,4 +1,7 @@
 package Extra;
+
+import java.util.Map;
+import java.util.HashMap;
 // Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -31,5 +34,20 @@ public class TwoSum {
             }
         }
         return indexes;
+    }
+
+    public int[] twoSumOptimal(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                int index = map.get(nums[i]);
+                if (index != i) {
+                    return new int[] { index, i };
+                }
+            }
+            int needed = target - nums[i];
+            map.put(needed, i);
+        }
+        return nums;
     }
 }
