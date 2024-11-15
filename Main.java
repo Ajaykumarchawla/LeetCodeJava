@@ -112,23 +112,31 @@ import Extra.RemoveOutMostParanthesis;
 import Extra.LargestOddNumberinString;
 import Extra.RotateString;
 import Extra.MergeKSortedLists;
+import Extra.MeetingRoomII;
 
 // nothing but adding commit
 class Main {
     public static void main(String args[]) {
 
-        ArrayProblems obj = new ArrayProblems();
-        int[] arr = { 1, 2, 3 };
-        int k = 3;
-        System.out.println(obj.longestSubarraywithSumK(arr, k) + " " + 2);
-        k = 5;
-        int[] arr2 = { 2, 3, 5 };
-        System.out.println(obj.longestSubarraywithSumK(arr2, k) + " " + 2);
+        // ArrayProblems obj = new ArrayProblems();
+        // int[] arr = { 1, 2, 3 };
+        // int k = 3;
+        // System.out.println(obj.longestSubarraywithSumK(arr, k) + " " + 2);
+        // k = 5;
+        // int[] arr2 = { 2, 3, 5 };
+        // System.out.println(obj.longestSubarraywithSumK(arr2, k) + " " + 2);
 
-        int[] arr3 = { -1, 1, 1 };
-        k = 1;
-        System.out.println(obj.longestSubarraywithSumK(arr3, k) + " " + 3);
+        // int[] arr3 = { -1, 1, 1 };
+        // k = 1;
+        // System.out.println(obj.longestSubarraywithSumK(arr3, k) + " " + 3);
 
-        System.out.print("Hello World");
+        System.out.println("Hello World");
+
+        MeetingRoomII meetingRoomII = new MeetingRoomII();
+        int[][] meetings = { { 0, 30 }, { 15, 20 }, { 5, 10 }, { 31, 34 }, { 31, 34 } };
+        System.out.println(meetingRoomII.minimumMeetingRooms(meetings));
+        int[][] meetings2 = { { 7, 10 }, { 2, 4 } };
+        System.out.println(meetingRoomII.minimumMeetingRooms(meetings2));
+
     }
 }
