@@ -64,7 +64,7 @@ public class BasicMath {
             }
         }
         while (!list2.isEmpty()) {
-            list.add(list2.removeLast());
+            list.add(list2.remove(list.size()-1));
         }
         return list;
     }

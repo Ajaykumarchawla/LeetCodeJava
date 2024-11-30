@@ -113,6 +113,7 @@ import Extra.LargestOddNumberinString;
 import Extra.RotateString;
 import Extra.MergeKSortedLists;
 import Extra.MeetingRoomII;
+import Extra.StackUsingQueue;
 
 // nothing but adding commit
 class Main {
@@ -132,11 +133,19 @@ class Main {
 
         System.out.println("Hello World");
 
-        MeetingRoomII meetingRoomII = new MeetingRoomII();
-        int[][] meetings = { { 0, 30 }, { 15, 20 }, { 5, 10 }, { 31, 34 }, { 31, 34 } };
-        System.out.println(meetingRoomII.minimumMeetingRooms(meetings));
-        int[][] meetings2 = { { 7, 10 }, { 2, 4 } };
-        System.out.println(meetingRoomII.minimumMeetingRooms(meetings2));
+        // MeetingRoomII meetingRoomII = new MeetingRoomII();
+        // int[][] meetings = { { 0, 30 }, { 15, 20 }, { 5, 10 }, { 31, 34 }, { 31, 34 }
+        // };
+        // System.out.println(meetingRoomII.minimumMeetingRooms(meetings));
+        // int[][] meetings2 = { { 7, 10 }, { 2, 4 } };
+        // System.out.println(meetingRoomII.minimumMeetingRooms(meetings2));
+
+        StackUsingQueue myStack = new StackUsingQueue();
+        myStack.push(1);
+        // myStack.push(2);
+        System.out.println(myStack.top()); // return 2
+        System.out.println(myStack.pop()); // return 2
+        System.out.println(myStack.empty()); // return False
 
     }
 }
