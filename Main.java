@@ -89,6 +89,7 @@ import RecursionI.UniqueBinarySearchTreesII;
 import Sorting.Sorting;
 import Extra.TwoSum;
 import Extra.PalindromeNumber;
+import Extra.QueueUsingStack;
 import Extra.MinimizeMaximumPairSumInArray;
 import Extra.FrequencyOfTheMostFrequentElement;
 import Extra.SearchInsertPosition;
@@ -140,12 +141,22 @@ class Main {
         // int[][] meetings2 = { { 7, 10 }, { 2, 4 } };
         // System.out.println(meetingRoomII.minimumMeetingRooms(meetings2));
 
-        StackUsingQueue myStack = new StackUsingQueue();
-        myStack.push(1);
-        // myStack.push(2);
-        System.out.println(myStack.top()); // return 2
-        System.out.println(myStack.pop()); // return 2
-        System.out.println(myStack.empty()); // return False
+        // StackUsingQueue myStack = new StackUsingQueue();
+        // myStack.push(1);
+        // // myStack.push(2);
+        // System.out.println(myStack.top()); // return 2
+        // System.out.println(myStack.pop()); // return 2
+        // System.out.println(myStack.empty()); // return False
+
+        QueueUsingStack myQueue = new QueueUsingStack();
+        myQueue.push(1); // queue is: [1]
+        myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
+        myQueue.push(3); // queue is: [1, 2] (leftmost is front of the queue)
+
+        System.out.println(myQueue.peek()); // return 1
+        System.out.println(myQueue.pop()); // return 1, queue is [2]
+        myQueue.pop();
+        System.out.println(myQueue.empty()); // return false
 
     }
 }
