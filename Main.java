@@ -113,6 +113,7 @@ import Extra.RemoveOutMostParanthesis;
 import Extra.LargestOddNumberinString;
 import Extra.RotateString;
 import Extra.MergeKSortedLists;
+import Extra.MinStack;
 import Extra.MeetingRoomII;
 import Extra.StackUsingQueue;
 
@@ -148,15 +149,25 @@ class Main {
         // System.out.println(myStack.pop()); // return 2
         // System.out.println(myStack.empty()); // return False
 
-        QueueUsingStack myQueue = new QueueUsingStack();
-        myQueue.push(1); // queue is: [1]
-        myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
-        myQueue.push(3); // queue is: [1, 2] (leftmost is front of the queue)
+        // QueueUsingStack myQueue = new QueueUsingStack();
+        // myQueue.push(1); // queue is: [1]
+        // myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
+        // myQueue.push(3); // queue is: [1, 2] (leftmost is front of the queue)
 
-        System.out.println(myQueue.peek()); // return 1
-        System.out.println(myQueue.pop()); // return 1, queue is [2]
-        myQueue.pop();
-        System.out.println(myQueue.empty()); // return false
+        // System.out.println(myQueue.peek()); // return 1
+        // System.out.println(myQueue.pop()); // return 1, queue is [2]
+        // myQueue.pop();
+        // System.out.println(myQueue.empty()); // return false
+
+        MinStack minStack = new MinStack();
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        minStack.push(-4);
+        System.out.println(minStack.getMin()); // return -3
+        minStack.pop();
+        System.out.println(minStack.top()); // return 0
+        System.out.println(minStack.getMin()); // return -2
 
     }
 }
