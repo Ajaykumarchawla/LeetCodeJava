@@ -41,7 +41,7 @@ class TreeNode {
     }
 }
 
-public class CovertedSortedArraytoBinarySearchTree {
+public class ConvertSortedArraytoBinarySearchTree {
     public TreeNode convertToBST(int[] nums, int i, int n) {
         if (i > n) {
             return null;
